@@ -14,9 +14,10 @@ body {
 
 main {
     background-color: #f8f8ff;
-    height: 100%;
+    height: auto;
     max-width: 50%;
-    margin: auto; 
+    margin: auto;
+    margin-bottom: 40px; 
     border-radius: 25px;
     text-align: center;
     font: 15px 'DM Mono', 'Roboto', sans-serif;
@@ -63,4 +64,5 @@ textarea {
 
 input[type='submit'] {
     margin: auto;
+    margin-bottom: 20px;
 }
