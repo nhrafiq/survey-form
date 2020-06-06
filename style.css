@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    /* How-to background image source: https://www.w3schools.com/howto/howto_css_full_page.asp */
+    background-image: url(https://images.pexels.com/photos/127577/nature-stars-night-galaxy-127577.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00003f;
+}
+
+main {
+    background-color: #f8f8ff;
+    height: 100%;
+    max-width: 50%;
+    margin: auto; 
+    border-radius: 25px;
+    text-align: center;
+    font: 15px 'DM Mono', 'Roboto', sans-serif;
+    color: #202020;
+}
+
+#title {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-color: #d1d1ff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font: 45px 'Kanit', 'Roboto', sans-serif;
+}
+
+#description {
+    position: relative;
+    bottom: 65px;
+}
+
+#survey-form {
+    margin: auto;
+    max-width: 80%;
+    text-align: left;
+}
+
+input, select, textarea {
+    font: 13px 'DM Mono', 'Roboto', sans-serif;
+    margin: 5px 10px 5px 0px;
+}
+
+input[type='text'], input[type='email'], input[type='number'], select {
+    width: 100%;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+input[type='submit'] {
+    margin: auto;
+}
