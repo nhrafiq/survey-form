@@ -15,7 +15,8 @@ body {
 main {
     background-color: #f8f8ff;
     height: auto;
-    max-width: 50%;
+    width: 50%;
+    max-width: 650px;
     margin: auto;
     margin-bottom: 40px; 
     border-radius: 25px;
